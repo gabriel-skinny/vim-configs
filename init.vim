@@ -36,6 +36,8 @@ set termguicolors
 syntax enable
 colorscheme shades_of_purple
 
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
 let g:coc_global_extensions = [
   \ 'coc-snippets',
   \ 'coc-pairs',
